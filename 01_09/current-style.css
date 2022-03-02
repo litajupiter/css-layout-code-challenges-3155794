@@ -24,15 +24,19 @@ img {
 }
 
 .main {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .card {
-
+  border: 5px solid black;
+  max-width: 500px;
 }
 
 .card figcaption {
-
+  padding: 1.5rem;
 }
 
 .card h2 {
@@ -44,4 +48,6 @@ img {
   border: 0.25rem solid black;
   font-size: 1rem;
   text-transform: uppercase;
+  display: flex;
+  margin-left: auto;
 }

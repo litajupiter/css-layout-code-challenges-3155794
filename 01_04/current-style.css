@@ -9,7 +9,8 @@
 }
 
 .block {
-  
+  flex-basis: 28%;
+  flex-grow: 1;
   padding: 0 1rem;
   border: 0.5rem solid green;
 }
